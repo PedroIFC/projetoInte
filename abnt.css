@@ -1,0 +1,133 @@
+@charset "utf-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(191, 190, 190);
+    /*height: 3040px;*/
+    display: flex;
+    flex-direction:column;
+}
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+h1.titulo {
+    text-align: center;
+    font-size: 12pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    line-height: 1.5;
+    font-size: 1rem;
+   margin-top: 12pt;
+}
+
+.pos-titulo {
+    margin-top: 0pt;
+}
+
+#pre-ref {
+    margin-top: 0pt;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.5;
+  padding-bottom: 1.5cm;
+  padding-top: 1.5cm;
+  font-size: 1rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Arial', 'san-serif';
+    font-size: 12pt;
+    padding: 20px;
+    position: relative;
+}
+
+.pagina {
+    position: relative;
+}
+
+.conteudo {
+    background-color: rgb(231, 230, 230);
+    max-width: 1000px;
+    width: 100%;
+    padding-top: 3cm;
+    padding-bottom: 2cm;
+    padding-left: 3cm;
+    padding-right: 2cm;
+    margin-top: 30px;
+    width: 21cm;
+    margin-bottom: 30px;
+    text-align: justify;
+    position: relative;
+}
+
+body p::first-letter {
+    margin-left: 1.25cm;
+  }
+
+.referencias::first-letter {
+  margin: 0;
+}
+
+.referencias {
+    line-height: 1;
+    text-align: left;
+  }
+
+@media (max-width: 810px) {
+    .conteudo {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 700px) {
+    .conteudo {
+        width: 95%;
+    }
+
+}
+
+@media (max-width: 590px) {
+    .conteudo {
+        width: 95%;
+        margin: 0 auto;
+        padding-top: 2cm;
+        padding-bottom: 1cm;
+        padding-left: 1cm;
+        padding-right: 1cm;
+    }
+
+    .pagina {
+        position: relative;
+        width: 100%;
+    }
+}
+
+footer {
+    background-color: #514234;
+    color: #f2e2c4;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 20vh;
+  }

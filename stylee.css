@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --cor-1: #f2e2c4;
+  --cor-2: #261f16;
+  --cor-3: #bfa380;
+  --cor-4: #8c5b30;
+  --cor-5: #734226;
+}
+
+body {
+  background-color: #261f16;
+}
+
+.card {
+  margin-top: 15vh;
+  background-color: #514234;
+  color: #f2e2c4;
+  margin-left: 10%;
+}
+
+footer {
+  background-color: #514234;
+  color: #f2e2c4;
+  padding: 10px;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  margin-top: 20vh;
+}
+
